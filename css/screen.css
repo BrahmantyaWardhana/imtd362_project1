@@ -1,7 +1,6 @@
 html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
-  padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
 }
 
@@ -14,15 +13,16 @@ body {
   background-color: #7697B9;
 }
 
-.signUpContainer {
+.signup-container {
   background-color: #D7E3F0;
-  width: 60%;
+  width: 30%;
+  margin: auto;
 }
 
-.adContainer {
+.ad-container {
   background-color: #315881;
-  width: 60%;
-
+  width: 30%;
+  margin: auto;
 }
 
 @media only screen and (min-width: 768px){
