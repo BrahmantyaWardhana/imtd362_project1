@@ -6,12 +6,15 @@ html {
 }
 
 h1 {
-  padding-top: 1em; /* 22px */
-  padding-bottom: 1em; /* 22px */
+  padding-bottom: 2em; /* 44px */
 }
 
 body {
   background-color: #7697B9;
+}
+
+.input-width-class {
+  width: 100%;
 }
 
 .signup-container {
