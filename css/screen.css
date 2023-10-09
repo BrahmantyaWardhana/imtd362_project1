@@ -1,4 +1,27 @@
+html {
+  font-size: 1.375em; /* 22px */
+  line-height: 1.182em; /* 26px / ~ 120% */
+  text-rendering: optimizeLegibility;
+}
 
+h1 {
+  padding-top: 1.182em; /* 26px */
+  padding-bottom: 2.364em; /* 52px */
+  font-weight: bold;
+}
+
+body {
+  background-color: #7697B9;
+}
+
+.signUpContainer {
+  background-color: #D7E3F0;
+}
+
+.adContainer {
+  background-color: #315881;
+
+}
 
 @media only screen and (min-width: 768px){
   
