@@ -1,13 +1,13 @@
 html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
+  padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
 }
 
 h1 {
-  padding-top: 1.182em; /* 26px */
-  padding-bottom: 2.364em; /* 52px */
-  font-weight: bold;
+  padding-top: 1em; /* 22px */
+  padding-bottom: 1em; /* 22px */
 }
 
 body {
@@ -16,10 +16,12 @@ body {
 
 .signUpContainer {
   background-color: #D7E3F0;
+  width: 60%;
 }
 
 .adContainer {
   background-color: #315881;
+  width: 60%;
 
 }
 
