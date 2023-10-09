@@ -2,6 +2,7 @@ html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -15,14 +16,24 @@ body {
 
 .signup-container {
   background-color: #D7E3F0;
-  width: 30%;
+  color: #315881;
+  width: 70%;
   margin: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .ad-container {
   background-color: #315881;
-  width: 30%;
+  color: #D7E3F0;
+  width: 70%;
   margin: auto;
+  padding: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 @media only screen and (min-width: 768px){
