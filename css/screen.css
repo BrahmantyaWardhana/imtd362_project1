@@ -18,7 +18,7 @@ h1 {
 h2 {
   font-size: 1.5em; /* 33px */
   line-height: 1.276em; /* 78 / 61.136px */
-  padding-bottom: 0.851em; /* 52 / 61.136 */
+  padding-bottom: 1.5em; /* 33px */
 }
 
 p {
@@ -42,17 +42,6 @@ input[type=submit] {
 .input-width-class {
   width: 98%;
   margin: auto;
-}
-
-.logo-container {
-  background-color: #315881;
-  color: #D7E3F0;
-  width: 70%;
-  margin: auto;
-  padding-bottom: 2em; /* 44px */
-  padding-left: 2em; /* 44px */
-  padding-right: 2em; /* 44px */
-  text-align: left;
 }
 
 .ad-container {
@@ -79,6 +68,10 @@ input[type=submit] {
 }
 
 /* ids */
+
+#logo-location {
+  text-align: justify;
+}
 
 #form-element-id {
   padding-top: 0.2273em; /* 5px */
