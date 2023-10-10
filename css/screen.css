@@ -89,6 +89,10 @@ input[type=submit] {
     height: 100%;
   }
 
+  body {
+    background-color: #D7E3F0;
+  }
+
   .body-container {
     width: 100%;
   }
@@ -96,16 +100,12 @@ input[type=submit] {
   .ad-container {
     float: left;
     width: 50%;
-    height: 100%;
+    min-height: 100vh;
     box-sizing: border-box;
     background-color: #315881;
     color: #D7E3F0;
     float: inline-start;
-    margin: 0;
-    padding-top: 2em; /* 44px */
-    padding-bottom: 2em; /* 44px */
-    padding-left: 2em; /* 44px */
-    padding-right: 2em; /* 44px */
+    padding: 2em; /* 2em */
     text-align: center;
     word-wrap: break-word;
   }
@@ -113,16 +113,12 @@ input[type=submit] {
   .signup-container {
     float: left;
     width: 50%;
-    height: 100%;
+    min-height: 100vh;
     box-sizing: border-box;
-    margin: 0;
     background-color: #D7E3F0;
     color: #315881;
     float: inline-end;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding: 2em; /* 2em */
   }
 }
 
