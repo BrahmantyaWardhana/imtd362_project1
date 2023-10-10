@@ -4,15 +4,15 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
   font-family: 'Roboto', sans-serif;
+  width: auto;
+  line-height: 1.1;
 }
 
 h1 {
   font-size: 2em; /* 33px */
   padding-top: 1em; /* 26px */
   padding-bottom: 1em; /* 26px */
-  line-height: 1.1;
   font-weight: bold;
-  width: auto;
 }
 
 h2 {
@@ -43,11 +43,11 @@ input[type=submit] {
   color: #D7E3F0;
   width: 70%;
   margin: auto;
-  padding: 1em;
-  padding-bottom: 1em;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-bottom: 2em; /* 44px */
+  padding-left: 2em; /* 44px */
+  padding-right: 2em; /* 44px */
   text-align: center;
+  word-wrap: break-word;
 }
 
 .signup-container {
