@@ -1,3 +1,4 @@
+/* General element css */
 html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
@@ -13,8 +14,25 @@ body {
   background-color: #7697B9;
 }
 
+input {
+  color: #315881;
+}
+
+/* Classes */
 .input-width-class {
   width: 100%;
+}
+
+.ad-container {
+  background-color: #315881;
+  color: #D7E3F0;
+  width: 70%;
+  margin: auto;
+  padding: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center;
 }
 
 .signup-container {
@@ -28,15 +46,11 @@ body {
   padding-right: 2em;
 }
 
-.ad-container {
-  background-color: #315881;
-  color: #D7E3F0;
-  width: 70%;
-  margin: auto;
-  padding: 1em;
-  padding-bottom: 1em;
-  padding-left: 2em;
-  padding-right: 2em;
+/* ids */
+
+#form-element-id {
+  padding-top: 0.2273em; /* 5px */
+  padding-bottom: 0.2273em; /* 5px */
 }
 
 @media only screen and (min-width: 768px){
