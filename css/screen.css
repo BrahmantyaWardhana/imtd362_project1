@@ -7,9 +7,12 @@ html {
 }
 
 h1 {
-  padding-top: 1.182em; /* 26px */
-  padding-bottom: 1.182em; /* 26px */
+  font-size: 2em; /* 33px */
+  padding-top: 1em; /* 26px */
+  padding-bottom: 1em; /* 26px */
+  line-height: 1.1;
   font-weight: bold;
+  width: auto;
 }
 
 h2 {
