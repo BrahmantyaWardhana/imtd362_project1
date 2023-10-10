@@ -87,14 +87,7 @@ input[type=submit] {
 @media only screen and (min-width: 768px){
   html, body {
     height: 100%;
-  }
-
-  body {
     background-color: #D7E3F0;
-  }
-
-  .body-container {
-    width: 100%;
   }
 
   .ad-container {
@@ -123,5 +116,35 @@ input[type=submit] {
 }
 
 @media only screen and (min-width: 1280px){
+  body {
+    background-color: #7697B9;
+  }
+
+  .body-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .ad-container {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    background-color: #315881;
+    color: #D7E3F0;
+    float: inline-start;
+    padding: 2em; /* 2em */
+    text-align: center;
+    word-wrap: break-word;
+  }
   
+  .signup-container {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    background-color: #D7E3F0;
+    color: #315881;
+    float: inline-end;
+    padding: 2em; /* 2em */
+  }
+
 }
