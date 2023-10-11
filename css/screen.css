@@ -10,14 +10,14 @@ html {
 
 h1 {
   font-size: 2em; /* 33px */
-  padding-top: 1em; /* 26px */
-  padding-bottom: 1em; /* 26px */
+  padding-top: 1em; /* 22px */
+  padding-bottom: 1em; /* 22px */
   font-weight: bold;
 }
 
 h2 {
   font-size: 1.5em; /* 33px */
-  line-height: 1.276em; /* 78 / 61.136px */
+  line-height: 1.276em; /* 28px */
   padding-bottom: 1.5em; /* 33px */
 }
 
@@ -39,6 +39,11 @@ input[type=submit] {
 }
 
 /* Classes */
+.form-element-class {
+  padding-top: 0.2273em; /* 5px */
+  padding-bottom: 0.2273em; /* 5px */
+}
+
 .input-width-class {
   width: 98%;
   margin: auto;
@@ -61,21 +66,16 @@ input[type=submit] {
   color: #315881;
   width: 70%;
   margin: auto;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-top: 1em; /* 26px */
+  padding-bottom: 1em; /* 26px */
+  padding-left: 2em; /* 26px */
+  padding-right: 2em; /* x */
 }
 
 /* ids */
 
 #logo-location {
   text-align: justify;
-}
-
-#form-element-id {
-  padding-top: 0.2273em; /* 5px */
-  padding-bottom: 0.2273em; /* 5px */
 }
 
 #custom-select-id {
@@ -98,7 +98,7 @@ input[type=submit] {
     background-color: #315881;
     color: #D7E3F0;
     float: inline-start;
-    padding: 2em; /* 2em */
+    padding: 2em; /* 44px */
     text-align: center;
     word-wrap: break-word;
   }
@@ -111,7 +111,7 @@ input[type=submit] {
     background-color: #D7E3F0;
     color: #315881;
     float: inline-end;
-    padding: 2em; /* 2em */
+    padding: 2em; /* 44px */
   }
 }
 
@@ -135,7 +135,7 @@ input[type=submit] {
     background-color: #315881;
     color: #D7E3F0;
     float: inline-start;
-    padding: 2em; /* 2em */
+    padding: 2em; /*44px */
     text-align: center;
     word-wrap: break-word;
   }
@@ -148,7 +148,7 @@ input[type=submit] {
     background-color: #D7E3F0;
     color: #315881;
     float: inline-end;
-    padding: 2em; /* 2em */
+    padding: 2em; /* 44px */
   }
 
 }
